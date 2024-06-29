@@ -329,12 +329,6 @@ jobs:
       - name: compile
         run: npm run compile
 
-      - name: check
-        run: node ./tests/dekko/lib.test.js
-
-      - name: check use client
-        run: node ./tests/dekko/use-client.test.js
-
       - name: cache dist
         uses: actions/cache@v4
         with:
@@ -346,6 +340,9 @@ jobs:
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
           CI: 1
+
+      - name: check dist/es/lib
+        run: npm run test:dekko
 
       # Artifact build files
       - uses: actions/upload-artifact@v4
