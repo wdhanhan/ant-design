@@ -2,12 +2,13 @@ import { createHash } from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import createEmotionServer from '@emotion/server/create-instance';
-import chalk from 'chalk';
 import type { IApi, IRoute } from 'dumi';
 import ReactTechStack from 'dumi/dist/techStacks/react';
 import sylvanas from 'sylvanas';
 
 import { dependencies, devDependencies } from '../../package.json';
+
+const chalk = import('chalk').then(m => m.default);
 
 function extractEmotionStyle(html: string) {
   // copy from emotion ssr
