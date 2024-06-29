@@ -151,15 +151,9 @@ jobs:
           path: dist
           key: dist-${{ github.sha }}
 
-      - name: check
+      - name: check dist/es/lib
         if: ${{ matrix.module == 'dist' }}
-        run: node ./tests/dekko/dist.test.js
-
-      - name: check use client
-        if: ${{ matrix.module == 'dist' }}
-        run: node ./tests/dekko/use-client.test.js
-        env:
-          LIB_DIR: dist
+        run: npm run test:dekko
 
       # dom test
       - name: dom test
@@ -215,15 +209,8 @@ jobs:
           path: dist
           key: dist-${{ github.sha }}
 
-      - name: check
-        if: ${{ matrix.module == 'dist' }}
-        run: node ./tests/dekko/dist.test.js
-
-      - name: check use client
-        if: ${{ matrix.module == 'dist' }}
-        run: node ./tests/dekko/use-client.test.js
-        env:
-          LIB_DIR: dist
+      - name: check dist/es/lib
+        run: npm run test:dekko
 
       # dom test
       - name: dom test

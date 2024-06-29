@@ -86,13 +86,11 @@ describe('build files is existed', () => {
       .hasFile('reset.css');
   });
 
-  if (testDist) {
-    it('should not contain use client in dist', () => {
-      $('dist/*')
-        .isFile()
-        .assert("doesn't contain use client", (filename: string) => !includeUseClient(filename));
-    });
-  }
+  it('should not contain use client in dist', () => {
+    $('dist/*')
+      .isFile()
+      .assert("doesn't contain use client", (filename: string) => !includeUseClient(filename));
+  });
 
   it('should contain use client in es/lib files', () => {
     $('{es,lib}/index.js')
