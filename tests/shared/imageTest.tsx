@@ -7,7 +7,7 @@ import fse from 'fs-extra';
 import { globSync } from 'glob';
 import { JSDOM } from 'jsdom';
 import MockDate from 'mockdate';
-import { HTTPRequest } from 'puppeteer';
+import type { PageEventObj } from 'puppeteer';
 import ReactDOMServer from 'react-dom/server';
 
 import { App, ConfigProvider, theme } from '../../components';
@@ -111,7 +111,7 @@ export default function imageTest(
     it(name, async () => {
       await page.setViewport({ width: 800, height: 600 });
 
-      const onRequestHandle = (request: HTTPRequest) => {
+      const onRequestHandle = (request: PageEventObj) => {
         if (['image'].includes(request.resourceType())) {
           request.abort();
         } else {
@@ -122,7 +122,7 @@ export default function imageTest(
       const { openTriggerClassName } = options;
 
       MockDate.set(dayjs('2016-11-22').valueOf());
-      page.on('request', onRequestHandle as any);
+      page.on('request', onRequestHandle);
       await page.goto(`file://${process.cwd()}/tests/index.html`);
       await page.addStyleTag({ path: `${process.cwd()}/components/style/reset.css` });
       await page.addStyleTag({ content: '*{animation: none!important;}' });
