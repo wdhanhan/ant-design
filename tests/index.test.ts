@@ -72,26 +72,6 @@ describe('build files is existed', () => {
     $('lib/*/style').isDirectory();
   });
 
-  it('should have dist files', () => {
-    $('dist')
-      .isDirectory()
-      .hasFile('antd-with-locales.js')
-      .hasFile('antd-with-locales.js.map')
-      .hasFile('antd-with-locales.min.js')
-      .hasFile('antd-with-locales.min.js.map')
-      .hasFile('antd.js')
-      .hasFile('antd.js.map')
-      .hasFile('antd.min.js')
-      .hasFile('antd.min.js.map')
-      .hasFile('reset.css');
-  });
-
-  it('should not contain use client in dist', () => {
-    $('dist/*')
-      .isFile()
-      .assert("doesn't contain use client", (filename: string) => !includeUseClient(filename));
-  });
-
   it('should contain use client in es/lib files', () => {
     $('{es,lib}/index.js')
       .isFile()
@@ -111,4 +91,26 @@ describe('build files is existed', () => {
       .filter((filename: string) => !filename.endsWith('/util.js'))
       .assert('contain use client', (filename: string) => includeUseClient(filename));
   });
+
+  if (testDist) {
+    it('should have dist files', () => {
+      $('dist')
+        .isDirectory()
+        .hasFile('antd-with-locales.js')
+        .hasFile('antd-with-locales.js.map')
+        .hasFile('antd-with-locales.min.js')
+        .hasFile('antd-with-locales.min.js.map')
+        .hasFile('antd.js')
+        .hasFile('antd.js.map')
+        .hasFile('antd.min.js')
+        .hasFile('antd.min.js.map')
+        .hasFile('reset.css');
+    });
+
+    it('should not contain use client in dist', () => {
+      $('dist/*')
+        .isFile()
+        .assert("doesn't contain use client", (filename: string) => !includeUseClient(filename));
+    });
+  }
 });
