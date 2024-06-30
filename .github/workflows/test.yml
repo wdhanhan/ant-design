@@ -199,7 +199,6 @@ jobs:
         run: npm run install-react-18
 
       - name: restore cache from dist
-        if: ${{ matrix.module == 'dist' || matrix.module == 'dist-min' }}
         uses: actions/cache@v4
         with:
           path: dist
