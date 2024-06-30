@@ -205,6 +205,18 @@ jobs:
           path: dist
           key: dist-${{ github.sha }}
 
+      - name: restore cache from es
+        uses: actions/cache@v4
+        with:
+          path: es
+          key: es-${{ github.sha }}
+
+      - name: restore cache from lib
+        uses: actions/cache@v4
+        with:
+          path: lib
+          key: lib-${{ github.sha }}
+
       # dom test
       - name: dom test
         if: ${{ matrix.module == 'dom' }}
@@ -344,7 +356,7 @@ jobs:
           node scripts/visual-regression/upload.js ./oss-artifacts.zip --ref=$HEAD_SHA
 
   compiled-module-test:
-    name: module test
+    name: test-lastest-compiled-module
     runs-on: ubuntu-latest
     needs: build
     strategy:
