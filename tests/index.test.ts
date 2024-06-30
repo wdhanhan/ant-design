@@ -9,6 +9,10 @@ const includeUseClient = (filename: string) =>
   fs.readFileSync(filename).toString().includes('"use client"');
 
 describe('antd dist files', () => {
+  // Run only in latest React version
+  if (process.env.React === '16' || process.env.React === '17') {
+    return;
+  }
   // https://github.com/ant-design/ant-design/issues/1638
   // https://github.com/ant-design/ant-design/issues/1968
   it('exports modules correctly', () => {
