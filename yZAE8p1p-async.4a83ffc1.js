@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["yZAE8p1p"],{yZAE8p1p:function(e,l,a){"use strict";a.d(l,"__esModule",{value:!0}),a.d(l,"default",{enumerable:!0,get:function(){return t;}});var n=a("9lWhVE4R");a("Y7IOMfOL");var s=a("B-i5_7B2"),t=()=>(0,n.jsx)(s.Image,{width:200,src:"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"});}}]);
+//# sourceMappingURL=yZAE8p1p-async.4a83ffc1.js.map

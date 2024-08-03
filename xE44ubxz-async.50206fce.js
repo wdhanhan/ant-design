@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["xE44ubxz"],{xE44ubxz:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return o;}});var a=n("9lWhVE4R");n("1_KG4t9n");var t=n("B-i5_7B2");let{_InternalPanelDoNotUseOrYouWillBeFired:u}=t.DatePicker;var o=()=>(0,a.jsx)(u,{picker:"month"});}}]);
+//# sourceMappingURL=xE44ubxz-async.50206fce.js.map

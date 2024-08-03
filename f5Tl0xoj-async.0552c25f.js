@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["f5Tl0xoj"],{f5Tl0xoj:function(e,l,a){"use strict";a.d(l,"__esModule",{value:!0}),a.d(l,"default",{enumerable:!0,get:function(){return u;}});var n=a("9lWhVE4R");a("BOClG0S6");var t=a("NIchKEYm"),o=a("B-i5_7B2"),u=()=>{let[e,l]=(0,t.useState)("Map");return(0,n.jsx)(o.Segmented,{options:["Map","Transit","Satellite"],value:e,onChange:l});};}}]);
+//# sourceMappingURL=f5Tl0xoj-async.0552c25f.js.map

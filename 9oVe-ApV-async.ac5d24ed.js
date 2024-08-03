@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["9oVe-ApV"],{"9oVe-ApV":function(e,l,a){"use strict";a.d(l,"__esModule",{value:!0}),a.d(l,"default",{enumerable:!0,get:function(){return o;}});var n=a("9lWhVE4R");a("-EzU6AUJ");var u=a("B-i5_7B2"),o=()=>(0,n.jsx)(u.Input,{placeholder:"Basic usage"});}}]);
+//# sourceMappingURL=9oVe-ApV-async.ac5d24ed.js.map

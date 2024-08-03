@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["J1gWXWax"],{J1gWXWax:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"demos",{enumerable:!0,get:function(){return a;}}),n("7p7xaJ3z");let a={};}}]);
+//# sourceMappingURL=J1gWXWax-async.94c9b396.js.map

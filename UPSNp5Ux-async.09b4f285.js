@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["UPSNp5Ux"],{UPSNp5Ux:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return o;}});var a=n("9lWhVE4R");n("AO1feXjc");var u=n("B-i5_7B2"),o=()=>(0,a.jsx)(u.Skeleton,{});}}]);
+//# sourceMappingURL=UPSNp5Ux-async.09b4f285.js.map

@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["lthNmR_K"],{lthNmR_K:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return i;}});var t=n("9lWhVE4R");n("Od960O2l");var a=n("B-i5_7B2"),i=()=>(0,t.jsx)(a.Watermark,{content:"Ant Design",children:(0,t.jsx)("div",{style:{height:500}})});}}]);
+//# sourceMappingURL=lthNmR_K-async.a93852e4.js.map

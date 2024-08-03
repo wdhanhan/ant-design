@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["WhcKy67X"],{WhcKy67X:function(e,n,o){"use strict";o.d(n,"__esModule",{value:!0}),o.d(n,"default",{enumerable:!0,get:function(){return a;}});var t=o("9lWhVE4R");o("ocwCuXjq");var l=o("B-i5_7B2"),a=()=>(0,t.jsx)(l.Popover,{content:(0,t.jsx)(l.QRCode,{value:"https://ant.design",bordered:!1}),children:(0,t.jsx)(l.Button,{type:"primary",children:"Hover me"})});}}]);
+//# sourceMappingURL=WhcKy67X-async.094713a5.js.map

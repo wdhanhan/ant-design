@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["fRPE4FCx"],{fRPE4FCx:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"demos",{enumerable:!0,get:function(){return o;}}),n("WKUYQavs");let o={};}}]);
+//# sourceMappingURL=fRPE4FCx-async.7e17b540.js.map

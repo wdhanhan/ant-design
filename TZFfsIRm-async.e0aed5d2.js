@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["TZFfsIRm"],{TZFfsIRm:function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return s;}});var a=n("9lWhVE4R");n("T_ChEleF");var o=n("B-i5_7B2"),s=()=>(0,a.jsx)(o.Calendar,{onPanelChange:(e,l)=>{console.log(e.format("YYYY-MM-DD"),l);}});}}]);
+//# sourceMappingURL=TZFfsIRm-async.e0aed5d2.js.map

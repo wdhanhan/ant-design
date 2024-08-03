@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["aISiVcMG"],{aISiVcMG:function(e,a,n){"use strict";n.d(a,"__esModule",{value:!0}),n.d(a,"default",{enumerable:!0,get:function(){return l;}});var s=n("9lWhVE4R");n("UWxjIamm");var t=n("B-i5_7B2"),l=()=>(0,s.jsxs)(t.Space,{children:[(0,s.jsx)(t.QRCode,{type:"canvas",value:"https://ant.design/"}),(0,s.jsx)(t.QRCode,{type:"svg",value:"https://ant.design/"})]});}}]);
+//# sourceMappingURL=aISiVcMG-async.d535bda8.js.map

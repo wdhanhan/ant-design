@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["SF_WtDay"],{SF_WtDay:function(e,l,a){"use strict";a.d(l,"__esModule",{value:!0}),a.d(l,"default",{enumerable:!0,get:function(){return d;}});var n=a("9lWhVE4R");a("csidmOPE");var o=a("B-i5_7B2");let t=e=>{console.log(`checked = ${e.target.checked}`);};var d=()=>(0,n.jsx)(o.Checkbox,{onChange:t,children:"Checkbox"});}}]);
+//# sourceMappingURL=SF_WtDay-async.7596b131.js.map

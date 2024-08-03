@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["ukVOZNng"],{ukVOZNng:function(e,n,t){"use strict";t.d(n,"__esModule",{value:!0}),t.d(n,"default",{enumerable:!0,get:function(){return u;}});var l=t("9lWhVE4R");t("GRCPRC1x");var o=t("B-i5_7B2"),u=()=>(0,l.jsx)(o.Segmented,{options:[123,456,"longtext-longtext-longtext-longtext"],block:!0});}}]);
+//# sourceMappingURL=ukVOZNng-async.62785311.js.map
