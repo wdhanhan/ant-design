@@ -3,7 +3,7 @@ import { Pagination } from 'antd';
 
 const App: React.FC = () => (
   <Pagination
-    total={85}
+    total={825}
     showSizeChanger
     showQuickJumper
     showTotal={(total) => `Total ${total} items`}
